@@ -2,19 +2,17 @@
 
 // получение числа от пользвателя
 Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number_1 = int.Parse(Console.ReadLine());
 
 // введение переменых
-int index = 0;
-int result = 0;
+int number_2 = 1;
 
 //проверка условия (четности числа)
-while(index < number)
+while(number_2 <= number_1)
 {
-    if(number%2 == 0)
+    if(number_2 % 2 == 0)
     {
-        result = number;
-        Console.WriteLine(result);
+        Console.WriteLine(number_2);
     }
-    index++; 
+ number_2++; 
 }
